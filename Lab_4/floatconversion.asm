@@ -1,8 +1,8 @@
 .data
-prompt: .asciz 
-celsius_msg: .asciz 
-kelvin_msg: .asciz 
-result_format: .asciz 
+prompt: .asciz "Temperature in Fahrenheit - "
+celsius_msg: .asciz "Temperature in Celsius - "
+kelvin_msg: .asciz "Temperature in Kelvin - "
+result_format: .asciz "\r\n"
 constant_273: .float 273.15
 f: .float 0
 c: .float 0
